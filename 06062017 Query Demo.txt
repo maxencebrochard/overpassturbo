@@ -1,6 +1,8 @@
 http://overpass-turbo.eu/
 
 <osm-script output="json">
+  
+  
   <query type="node">
     <has-kv k="amenity" regv="bar"/>
     <bbox-query {{bbox}}/>
